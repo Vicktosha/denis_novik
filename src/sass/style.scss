@@ -1,0 +1,11 @@
+*   {
+    font-family: 'Gilroy';
+}
+.container  {
+    max-width: 945px;
+    margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/subheader';
+@import 'blocks/section-about'
