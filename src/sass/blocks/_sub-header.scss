@@ -1,18 +1,24 @@
 .sub-header  {
-    height: 187px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	padding: 38px 0 49px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
 }
-    &_name-item {
-        font-weight: 900;
-        font-size: 47.3392px;
-        line-height: 59px;
-        color: #070707;
+	.sub-header_name-item	{
+		display: flex;
+		flex-direction: column;
+		align-items:flex-start;
+		font-weight: 900;
+		font-size: 47.3392px;
+		line-height: 59px;
+		color: #070707;
     }
-   &_about-item   {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 22px;
-        color: #070707;
-    }
+	.sub-header_about-item   {
+		display: flex;
+		flex-direction: column;
+		align-items:flex-start;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #070707;
+	}
