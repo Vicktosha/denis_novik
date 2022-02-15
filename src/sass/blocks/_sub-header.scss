@@ -1,16 +1,16 @@
-.subheader  {
+.sub-header  {
     height: 187px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-    .subheader_name-item {
+    &_name-item {
         font-weight: 900;
         font-size: 47.3392px;
         line-height: 59px;
         color: #070707;
     }
-    .subheader_about-item   {
+   &_about-item   {
         font-weight: 500;
         font-size: 18px;
         line-height: 22px;
