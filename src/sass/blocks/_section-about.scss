@@ -1,19 +1,21 @@
 .section-about  {
-    padding: 120px 0 107px 0;
-    min-height: 500px;
+    padding: 120px 0 107px;
     background: #F6F6F6;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
 }
     .title  {
+        margin-bottom: 0;
         font-weight: 900;
         font-size: 34px;
-        line-height: 42px;
         color: #070707;
     }
-    .section_about-text {
+    .section-about_text {
+        margin-top: 50px;
+        display: flex;
+		flex-direction: column;
         font-weight: 500;
         font-size: 18px;
         line-height: 22px;

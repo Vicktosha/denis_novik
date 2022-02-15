@@ -3,17 +3,17 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
-}
-	.sub-header_name-item	{
+
+	&_name-item	{
 		display: flex;
 		flex-direction: column;
-		align-items:flex-start;
+		align-items: flex-start;
 		font-weight: 900;
 		font-size: 47.3392px;
 		line-height: 59px;
 		color: #070707;
-    }
-	.sub-header_about-item   {
+	}
+	&_about-item   {
 		display: flex;
 		flex-direction: column;
 		align-items:flex-start;
@@ -22,3 +22,11 @@
 		line-height: 22px;
 		color: #070707;
 	}
+	&_lang-item	{
+		font-weight: 900;
+		transform: rotate(-90deg) translateY(27px) translateX(16px);
+		text-decoration: none;
+		color: #828282;
+		@include button;
+	}
+}

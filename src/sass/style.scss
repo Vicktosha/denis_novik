@@ -1,11 +1,19 @@
 *   {
-    font-family: "gilroy";
+	font-family: "gilroy";
 }
 .container  {
-    max-width: 945px;
-    margin: 0 auto;
+	max-width: 945px;
+	margin: 0 auto;
 }
+
+@mixin button   {
+	:hover	{
+		color: black;
+		transition: 0.6s all;
+    }
+}
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/sub-header';
-@import 'blocks/section-about'
+@import 'blocks/section-about';
