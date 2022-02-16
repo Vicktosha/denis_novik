@@ -1,0 +1,29 @@
+.footer {
+    padding: 114px 0 123px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+    .sub-title  {
+        display: flex;
+        flex-direction: column;
+	    align-items: center;
+    }
+    .btn-massage    {
+        padding-top: 6px;
+        background-color: black;
+        font-weight: 900;
+        font-size: 18px;
+        color: white;
+        border-radius: 10%;
+        width: 180.5px;
+        height: 42px;
+        text-align: center;
+    }
+        .social_wrap    {
+            width: 350px;
+        }
+        .social__link   {
+            width: 40px;
+            height: 40px;
+        }
