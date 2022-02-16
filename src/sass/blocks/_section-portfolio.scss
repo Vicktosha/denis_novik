@@ -1,0 +1,39 @@
+.section-portfolio	{
+	padding: 113px 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #F6F6F6;
+
+	.title_portfolio	{
+		margin-bottom: 50px;
+	}
+	.portfolio-box	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.section-portfolio__wrap-box	{
+		margin-bottom: 99px;
+	}
+	.sub-title_portfolio	{
+		margin-top: 45px;
+	}
+	.portfolio-link	{
+		font-size: 18px;
+		color: #070707;
+		border-bottom: 2px;
+		::before	{
+			content: '';
+			border-bottom: 2px;
+			color: black;
+			width: 0%;
+			:hover {
+				::before	{
+					width: 100%;
+					transition: 0.5s all;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+.section-skills {
+	padding: 98px 0 110px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.sub-title_skills	{
+		margin: 70px 0 83px;}
+		.sub-title	{
+			font-size: 18px;
+		}
+
+
+	&__app    {
+		width: 945px;
+		display: flex;
+		flex-direction: row;
+		justify-content:space-between;
+	}
+
+		.app-box	{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+		}
+			.descr_box	{
+				margin: 24px 0 40px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.stars	{
+				:nth-child(5)	{
+					margin-right: 0;
+				}
+			}
+			.star	{
+				margin-right: 10px;
+			}
+}
