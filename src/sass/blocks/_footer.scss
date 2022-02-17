@@ -1,29 +1,55 @@
 .footer {
-    padding: 114px 0 123px;
+	padding: 114px 0 123px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-    .sub-title  {
-        display: flex;
-        flex-direction: column;
-	    align-items: center;
-    }
-    .btn-massage    {
-        padding-top: 6px;
-        background-color: black;
-        font-weight: 900;
-        font-size: 18px;
-        color: white;
-        border-radius: 10%;
-        width: 180.5px;
-        height: 42px;
-        text-align: center;
-    }
-        .social_wrap    {
-            width: 350px;
-        }
-        .social__link   {
-            width: 40px;
-            height: 40px;
-        }
+	.sub-title_contacts  {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 20px 0 29px;
+		font-size: 18px;
+		font-weight: 500;
+	}
+	.btn-message    {
+		padding: 10px;
+		background-color: black;
+		font-weight: 900;
+		font-size: 18px;
+		color: white;
+		border-radius: 30px;
+		text-align: center;
+		width: 180.5px;
+		height: 42px;
+		text-decoration: none;
+		transition: 0.4s all;
+			&_:hover	{
+				background: white;
+				color: black;
+				border: 2px solid;
+				transition: 0.4s all;
+			}
+	}
+		.social_wrap    {
+			width: 350px;
+			margin: 85px 0 45px;
+		}
+			.social	{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+			.social__link   {
+			width: 40px;
+			height: 40px;
+		}
+		.descr_buttom   {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-size: 14px;
+			line-height: 17px;
+			color: #828282;
+
+		}
